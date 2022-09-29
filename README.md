@@ -1,5 +1,25 @@
-## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+Nama : Muhammad Rizky Sandyra
+
+NIM : 21343032
+
+Untuk mengambil input dari user bisa menggunakan 3 kelas, yaitu:
+1. Scanner : untuk menggunakan kelas ini perlu meng import Java.util.Scanner . Kelas Scanner mempunyai method yang berbeda untuk membaca tipe data yang 
+berbeda yang sebagai berikut :
+
+  a. public String nextLine() : memindahkan pemindai ke baris berikutnya dan mengembalikan input yang dilewati
+  
+  b. public byte nextByte() : memindai data dengan tipe data Byte
+  
+  c. public short nextShort() : memindai data dengan tipe data Short
+  
+  d. public int nextInt() : memindai data dengan tipe data Integer
+  
+  e. public long nextLong() : memindai data dengan tipe data Long Integer
+  
+  f. public float nextFloat() : memindai data dengan tipe data Float
+  
+  g. public double nextDouble() : memindai data dengan tipe data Double
+  
+2. BufferedReader : untuk menggunakan BuffredReader perlu mengimport library BufferedReader, InputStreamReader, IOException yang berada di package java.io. Fungsi dari BufferedReader adalah readLine()
+
+3. JOptionPane : untuk menggunakan JOptionPane harus mengimport library JOptionPane dari java.swing package. Lalu untuk menampilkan inputan menggunakan string msg
